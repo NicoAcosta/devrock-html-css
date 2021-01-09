@@ -1,0 +1,48 @@
+/* 
+header{
+    background: orange;
+}
+
+section{
+    background: pink;
+}
+
+footer{
+    background: green;
+} */
+
+
+body {
+    color: grey;
+    font-family: arial;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Times New Roman';
+    
+}
+
+p {
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+strong {
+    color: black
+}
+
+
+
+footer p:nth-child(2) {
+    text-transform: uppercase;
+    text-shadow: 5px 5px 3px;
+}
+
+/*
+Regular
+Bold
+Light
+*/
