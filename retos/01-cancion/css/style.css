@@ -17,6 +17,7 @@ body {
 
 }
 
+
 h2 {
     font-weight: 300;
 }
@@ -26,46 +27,45 @@ h3 {
 }
 
 
+#portada {
+    border-radius: 3px;
+}
 
 .info {
     margin-top: 40px;
     color: #FAFAFA;
 }
 
+    #centro {
+        font-weight: 400;
+    }
 
-#centro {
-    font-weight: 400;
-}
+    #fito {
+        margin-bottom: 10px;
+    }
 
-#fito {
-    margin-top: 40px;
-    margin-bottom: 10px;
-}
+    #flaco {
+        margin-top: 10px;
+        font-size: 18px;
+        font-style: italic;
+    }
 
-#flaco {
-    margin-top: 10px;
-    font-size: 18px;
-    font-style: italic;
-}
-
-#naturaleza {
-    margin-top: 40px;
-}
-
-#duracion {
-    margin-top: 40px;
-}
 
 
 .boton{
     text-decoration: none;
     color: #FAFAFA;
+    padding-bottom: 3px;
 }
 
-.boton:hover{
-    border-bottom: 1px solid #FAFAFA;
-}
+    .boton:hover{
+        border-bottom: 1px solid #FAFAFA;
+    }
 
+    .boton:active{
+        color: #afafaf;
+        border-bottom: 1px solid #afafaf;
+    }
 
 
 
@@ -78,3 +78,8 @@ h3 {
     font-weight: 400;
 }
 
+
+
+footer {
+    font-size: 100px;
+}
