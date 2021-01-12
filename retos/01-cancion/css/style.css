@@ -1,11 +1,14 @@
 
 body {
 
-    font-family: 'Lato', sans-serif;
+    font-family: 'spotify-circular';
+    font-weight: 200;
+
     color: #FAFAFA;
+    font-style: normal;
+
     text-align: center;
     font-size: 18px;
-    font-weight: 300;
 
     background-image: linear-gradient(
         #6B0808,
@@ -13,17 +16,20 @@ body {
     );
     background-attachment: fixed;
 
-    text-decoration: none;
-
 }
 
 
 h2 {
-    font-weight: 300;
+    font-weight: 200;
 }
 
 h3 {
-    font-weight: 300;
+    font-weight: 200;
+}
+
+
+img:hover {
+    opacity: 0.8;
 }
 
 
@@ -70,16 +76,37 @@ h3 {
 
 
 #letra {
-    font-size: 23px;
-    line-height: 40px;
+    font-size: 20px;
+    line-height: 35px;
 }
 
 .estribillo {
-    font-weight: 400;
+    font-weight: 600;
 }
 
 
 
-footer {
-    font-size: 100px;
+
+
+
+footer div {
+    margin: 10px;
+    padding: 10px;
 }
+
+    .left {
+        width: 50%;
+        float: left;
+        text-align: left;
+        margin-left: 30px;
+    }
+
+    .right {
+        text-align: right;
+        margin-right: 20px;
+    }
+
+    #summerhack {
+        width: 200px;
+    }
+    

@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'Circular Std';
     src: url('CircularStd-MediumItalic.woff2') format('woff2'),
         url('CircularStd-MediumItalic.woff') format('woff');
@@ -23,10 +23,10 @@
     font-weight: bold;
     font-style: normal;
     font-display: swap;
-}
+} */
 
 @font-face {
-    font-family: 'Circular Std Book';
+    font-family: 'Circular Std';
     src: url('CircularStd-Book.woff2') format('woff2'),
         url('CircularStd-Book.woff') format('woff');
     font-weight: normal;
