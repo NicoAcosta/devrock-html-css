@@ -71,18 +71,12 @@
 
     <section>
         
-        <br><br><br><br><br>
 
         <div itemscope itemtype="https://schema.org/MusicRecording" id="data">
 
             <a href="https://open.spotify.com/album/0ZK4qMEX66OOFWYNrPtMLS?si=6YMeELBySPitlaaJU6uVtg" target="_blank"><span itemprop="image">
                 <img src="images/naturaleza-300px.jpeg" alt="Portada del album Naturaleza Sangre de Fito Páez" id="portada">
             </span></a>
-
-            <br>
-            <br>
-            <br>
-
             
             <h2 class="info" id="centro"><a href="https://open.spotify.com/track/7nzdb8YFXjp1egj56mABZx?si=-G1CHuRQT7GKIAQkb-xqWw" class="boton" target="_blank"><span itemprop="name">
                 El Centro de Tu Corazón
@@ -108,21 +102,23 @@
 
         </div>
 
-        <br><br><br>
+        <div id="players">
+            <audio src="audio/el-centro.m4a" preload="auto" controls class="player"></audio>
 
-        <audio src="audio/el-centro.m4a" preload="auto" controls></audio>
+            <br>
+    
+            <iframe src="https://open.spotify.com/embed/track/7nzdb8YFXjp1egj56mABZx" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media" class="player"></iframe>
 
-        <br><br><br><br>
 
-        <iframe src="https://open.spotify.com/embed/track/7nzdb8YFXjp1egj56mABZx" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        
+        <div id="letra">
 
-        <br><br><br><br><br>
+            <h1>Letra</h1>
+            
+            <br>
 
-        <h1>Letra</h1>
-
-        <br>
-
-        <p id="letra">
+        <p>
 
             Que pasó, que pasó, que pasó la vida, extraño carrusel<br>
             Me dejó, me dejó, me dejó un sabor amargo bajo piel.<br>
@@ -199,14 +195,16 @@
 
         </p>
 
-        <br><br><br><br><br><br>
+
+        </div>
+
+        
 
 
         
     </section>
 
     <footer>
-
             <div class="left">© Nicolás Acosta 2021</div>
             <div class="right"><a href="https://escueladevrock.com/summerhack" target="_blank"><img src="images/summerhack.png" alt="Logo del Summerhack de Escuela Dev Rock" id="summerhack"></a></div>
         

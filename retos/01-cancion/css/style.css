@@ -27,11 +27,26 @@ h3 {
     font-weight: 200;
 }
 
-
 img:hover {
     opacity: 0.8;
 }
 
+
+section{
+    margin: 50px;
+}
+
+#data{
+    margin: 50px;
+}
+
+#players{
+    margin: 50px;
+}
+
+.player{
+    margin: 30px;
+}
 
 #portada {
     border-radius: 3px;
@@ -43,7 +58,7 @@ img:hover {
 }
 
     #centro {
-        margin-top: 20px;
+        margin-top: 40px;
         font-weight: 400;
     }
 
@@ -76,35 +91,41 @@ img:hover {
 
 
 
+
+
 #letra {
+    margin-top: 150px;
     font-size: 20px;
     line-height: 35px;
 }
 
 .estribillo {
     font-weight: 600;
+    text-shadow: 1px 1px 10px #260D0D;
 }
 
 
 
-
-
+footer{
+    margin-top: 150px;
+}
 
 footer div {
-    margin: 10px;
-    padding: 10px;
+    height: 50;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
 }
 
     .left {
-        width: 50%;
-        float: left;
         text-align: left;
-        margin-left: 30px;
+        padding-left: 10px;
     }
 
     .right {
         text-align: right;
-        margin-right: 20px;
+        padding-right: 10px;
+        padding-bottom: 10px;
     }
 
     #summerhack {
