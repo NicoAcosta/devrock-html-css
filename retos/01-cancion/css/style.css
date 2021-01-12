@@ -13,8 +13,9 @@ body {
     );
     background-attachment: fixed;
 
-}
+    text-decoration: none;
 
+}
 
 h2 {
     font-weight: 300;
@@ -24,9 +25,49 @@ h3 {
     font-weight: 300;
 }
 
-#title {
+
+
+.info {
+    margin-top: 40px;
+    color: #FAFAFA;
+}
+
+
+#centro {
     font-weight: 400;
 }
+
+#fito {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+#flaco {
+    margin-top: 10px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+#naturaleza {
+    margin-top: 40px;
+}
+
+#duracion {
+    margin-top: 40px;
+}
+
+
+.boton{
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+.boton:hover{
+    border-bottom: 1px solid #FAFAFA;
+}
+
+
+
 
 #letra {
     font-size: 23px;
@@ -36,3 +77,4 @@ h3 {
 .estribillo {
     font-weight: 400;
 }
+
