@@ -55,13 +55,15 @@ nav {
 }
 
 section {
-    height: 200vh;
+    /* height: 200vh; */
     background: red;
 }
 
 .splash {
     height: 92vh;
     background: cadetblue;
+    /* margin-left: 30px;
+    margin-right: 30px; */
 }
 
 .splash--top {
@@ -69,11 +71,18 @@ section {
     display: flex;
     justify-content: space-around;
     background: var(--pink);
+    flex-wrap: wrap;
 }
 
 .splash--portada {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+}
+
+.splash--img--portada{
+    margin: 20px;
 }
 
 .splash--episodio {
@@ -117,6 +126,66 @@ section {
     justify-content: space-around;
     align-items: center;
     font-size: 30px;
+}
+
+
+
+
+
+
+.episodios {
+    background: var(--violet);
+    /* height: 2000px; */
+}
+
+.episodios--container {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+.episodios--h2--otrosepisodios {
+    
+}
+
+.truchicards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+
+}
+
+.truchicard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 30px;
+    border: 3px solid var(--white);
+    border-radius: 20px;
+    margin: 20px 20px;
+    width: 300px;
+    /* height: 400px; */
+    background: var(--pink);
+}
+
+.truchicard--img {
+    /* margin: 1px; */
+    width: 180px;
+    /* border: 5px solid var(--violet); */
+    border-radius: 10px;
+}
+
+.truchicard--spotify {
+    width: 230px;
+    height: 160px;
+}
+
+.truchicard--h3--name {
+    color: var(--white);
+    margin: 20px;
 }
 
 
