@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: 'spotify-circular';
+    color: var(--white);
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+header {
+    height: 8vh;
+    width: 100%;
+    background: var(--pink);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--white);
+    /* display */
+    /* position: fixed; */
+}
+
+.logo--header {
+    height: 4vh;
+    margin-left: 20px;
+}
+
+.summer--header {
+    height: 4vh;
+    margin-right: 20px;
+}
+
+.div--logo{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.div--summer{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+nav {
+    flex-grow: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    height: 200vh;
+    background: red;
+}
+
+.splash {
+    height: 92vh;
+    background: cadetblue;
+}
+
+.splash--top {
+    height: 82vh;
+    display: flex;
+    justify-content: space-around;
+    background: var(--pink);
+}
+
+.splash--portada {
+    display: flex;
+    align-items: center;
+}
+
+.splash--episodio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px 0;
+    border: 3px solid var(--white);
+    border-radius: 20px;
+    margin: 70px 10px;
+    width: 400px;
+    background: var(--violet);
+}
+
+.splash--img--episodio {
+    width: 200px;
+    /* border: 2px solid  */
+    border-radius: 10px;
+}
+
+
+.splash--h1--episodio {
+    font-size: 30px;
+}
+
+
+
+/* 
+.splah--spotify {
+    width: 250px;
+    padding: 30px;
+} */
+
+
+.splash--bottom {
+    height: 10vh;
+    background: var(--pink);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+footer {
+    height: 100px;
+    background: cornflowerblue;
+}
