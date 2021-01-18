@@ -208,6 +208,8 @@ section .fab {
 
 .episodios {
     background: var(--violet);
+    /* padding-top: 100px; */
+    padding-bottom: 70px;
 }
 
 .episodios--h2--otrosepisodios {
