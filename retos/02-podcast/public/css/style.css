@@ -1,3 +1,10 @@
+
+.schemainfo {
+    visibility: hidden;
+}
+
+
+
 body {
     margin: 0;
     font-family: 'spotify-circular';

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -41,7 +42,7 @@
     <meta property="og:image" content="images/portada-podcast.jpg" />
     <meta property="twitter:image:alt" content="Portada del podcast Comedia" />
     <meta property="og:sitename" content="Comedia Podcast" />
-    <meta property="og:audio" content="audio/martingarabal.mp3" />
+    <meta property="og:audio" content="https://comediapod.web.app/audio/martingarabal.mp3" />
     <meta property="og:description" content="Comedia | Un podcast sobre humor por Adrián Lakerman" />
 
 
@@ -63,8 +64,6 @@
     <meta name="twitter:player:stream" content="https://comediapod.web.app/audio/martingarabal.mp3" />
     <meta name="twitter:player:height" content="600" />
     <meta name="twitter:player:width" content="600" />
-
-
 
 
 
@@ -142,158 +141,408 @@
             <br id="episodios">
             <h2 class="episodios--h2--otrosepisodios">Otros episodios</h2>
             
-            <div class="temporada">
-                <h3 class="h3--temporada">Temporada 2</h3>
+            <div itemscope itemtype="https://schema.org/PodcastSeason" class="temporada">
+                <h3 itemprop="name" class="h3--temporada">Temporada 2</h3>
+                <div class="schemainfo">
+                    <span itemprop="actor">Adrián Lakerman</span>
+                    <span itemprop="director">Adrián Lakerman</span>
+                    <span itemprop="partOfSeries">Comedia</span>
+                    <span itemprop="startDate">19/03/2020</span>
+                    <span itemprop="endDate">2/12/2020</span>
+                    <span itemprop="numberOfEpisodes">15</span>
+                    <span itemprop="seasonNumber">2</span>
+                </div>
                 <div class="truchicards">
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">Carlos Nuñez Cortés</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">2</span>
+                            <span itemprop="episodeNumber">15</span>
+                        </div>
                         <img class="truchicard--img" src="images/episodios/carlosnunezcortes.jpg" alt="">
-                        <h4 class="truchicard--h4--name">Carlos Nuñez Cortés</h4>
+                        <h4 itemprop="actor" itemprop="name" class="truchicard--h4--name">Carlos Nuñez Cortés</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/55aSq6tIMTUgMVJoXOrHu4" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">Lia Copello (La Cope)</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">2</span>
+                            <span itemprop="episodeNumber">16</span>
+                        </div>
                         <img class="truchicard--img" src="images/episodios/lacope.jpg" alt="">
-                        <h4 class="truchicard--h4--name">Lia Copello (La Cope)</h4>
+                        <h4 itemprop="name" class="truchicard--h4--name">Lia Copello (La Cope)</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/4bAVgo8CxNUd3vvZQs8rIN" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">Pablo Granados</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">2</span>
+                            <span itemprop="episodeNumber">17</span>
+                        </div>
                         <img class="truchicard--img" src="images/episodios/pablogranados.jpg" alt="">
-                        <h4 class="truchicard--h4--name">Pablo Granados</h4>
+                        <h4 itemprop="name" class="truchicard--h4--name">Pablo Granados</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/7DNQSYr1vfveTlOvk3y9HU" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">Vivian El Jaber</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">2</span>
+                            <span itemprop="episodeNumber">18</span>
+                        </div>
                         <img class="truchicard--img" src="images/episodios/vivianeljaber.jpg" alt="">
-                        <h4 class="truchicard--h4--name">Vivian El Jaber</h4>
+                        <h4 itemprop="name" class="truchicard--h4--name">Vivian El Jaber</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/6GWHcJJcpoc40WqwFSzQMl" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">Pedro Rosemblat</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">2</span>
+                            <span itemprop="episodeNumber">20</span>
+                        </div>
                         <img class="truchicard--img" src="images/episodios/pedrorosemblat.jpg" alt="">
-                        <h4 class="truchicard--h4--name">Pedro Rosemblat</h4>
+                        <h4 itemprop="name" class="truchicard--h4--name">Pedro Rosemblat</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/1bkufw2YongTGAE86P2Spi" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">Anita Martínez</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">2</span>
+                            <span itemprop="episodeNumber">21</span>
+                        </div>
                         <img class="truchicard--img" src="images/episodios/anitamartinez.jpg" alt="">
-                        <h4 class="truchicard--h4--name">Anita Martínez</h4>
+                        <h4 itemprop="name" class="truchicard--h4--name">Anita Martínez</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/0fkxvvMEIcG2bcR5TGnXmL" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">Tute</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">2</span>
+                            <span itemprop="episodeNumber">22</span>
+                        </div>
                         <img class="truchicard--img" src="images/episodios/tute.jpg" alt="">
-                        <h4 class="truchicard--h4--name">Tute</h4>
+                        <h4 itemprop="name" class="truchicard--h4--name">Tute</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/3zNyqcyQdJdlFzsisSV7iM" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">José María Listorti</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">2</span>
+                            <span itemprop="episodeNumber">23</span>
+                        </div>
                         <img class="truchicard--img" src="images/episodios/josemarialistorti.jpg" alt="">
-                        <h4 class="truchicard--h4--name">José María Listorti</h4>
+                        <h4 itemprop="name" class="truchicard--h4--name">José María Listorti</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/5Js2F0F0ZjKZihOSsKpssu" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">Gabriela Acher</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">2</span>
+                            <span itemprop="episodeNumber">24</span>
+                        </div>
                         <img class="truchicard--img" src="images/episodios/gabrielaacher.jpg" alt="">
-                        <h4 class="truchicard--h4--name">Gabriela Acher</h4>
+                        <h4 itemprop="name" class="truchicard--h4--name">Gabriela Acher</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/14d4Oc6OuCwJpy7YYCCCQ6" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">Martín Garabal</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">2</span>
+                            <span itemprop="episodeNumber">25</span>
+                        </div>
                         <img class="truchicard--img" src="images/episodios/martingarabal.jpg" alt="">
-                        <hh43 class="truchicard--h4--name">Martín Garabal</h4>
+                        <h4 itemprop="name" class="truchicard--h4--name">Martín Garabal</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/16vFqm2dY0Puc6FTLKeuE1" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">Ana Katz</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">2</span>
+                            <span itemprop="episodeNumber">26</span>
+                        </div>
                         <img class="truchicard--img" src="images/episodios/anakatz.jpg" alt="">
-                        <h4 class="truchicard--h4--name">Ana Katz</h4>
+                        <h4 itemprop="name" class="truchicard--h4--name">Ana Katz</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/5eIdai0jfOYTQLZgDGkrfB" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">Guille Aquino</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">2</span>
+                            <span itemprop="episodeNumber">27</span>
+                        </div>
                         <img class="truchicard--img" src="images/episodios/guilleaquino.jpg" alt="">
-                        <h3 class="truchicard--h4--name">Guille Aquino</h1>
+                        <h4 itemprop="name" class="truchicard--h4--name">Guille Aquino</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/3w1soicQIVBvVhiGSJcOKH" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">Ana Carolina</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">2</span>
+                            <span itemprop="episodeNumber">28</span>
+                        </div>
                         <img class="truchicard--img" src="images/episodios/anacarolina.jpg" alt="">
-                        <h4 class="truchicard--h4--name">Ana Carolina</h4>
+                        <h4 itemprop="name" class="truchicard--h4--name">Ana Carolina</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/2GO7TslEno0ZctLqbX2AME" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">José Luis Giogia</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">2</span>
+                            <span itemprop="episodeNumber">29</span>
+                        </div>
                         <img class="truchicard--img" src="images/episodios/joseluisgiogia.jpg" alt="">
-                        <h4 class="truchicard--h4--name">José Luis Giogia</h4>
+                        <h4 itemprop="name" class="truchicard--h4--name">José Luis Giogia</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/55eefvs1pcKt9uWYuYCDoe" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">Noelia Custodio</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">2</span>
+                            <span itemprop="episodeNumber">30</span>
+                        </div>
                         <img class="truchicard--img" src="images/episodios/noeliacustodio.jpg" alt="">
-                        <h4 class="truchicard--h4--name">Noelia Custodio</h4>
+                        <h4 itemprop="name" class="truchicard--h4--name">Noelia Custodio</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/37uRLTasL33S1hf0jmOs7b" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
                 </div>
             </div>
 
-            <div class="temporada">
-                <h3 class="h3--temporada">Temporada 1</h3>
+            <div itemscope itemtype="https://schema.org/PodcastSeason" class="temporada">
+                <h3 itemprop="name" class="h3--temporada">Temporada 1</h3>
+                <div class="schemainfo">
+                    <span itemprop="actor">Adrián Lakerman</span>
+                    <span itemprop="director">Adrián Lakerman</span>
+                    <span itemprop="partOfSeries">Comedia</span>
+                    <span itemprop="startDate">25/04/2019</span>
+                    <span itemprop="endDate">21/11/2019</span>
+                    <span itemprop="numberOfEpisodes">14</span>
+                    <span itemprop="seasonNumber">1</span>
+                </div>
                 <div class="truchicards">
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">Pedro Saborido</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">1</span>
+                            <span itemprop="episodeNumber">1</span>
+                        </div>
                         <img class="truchicard--img" src="images/portada-podcast.jpg" alt="">
-                        <h4 class="truchicard--h4--name">Pedro Saborido</h4>
+                        <h4 itemprop="name" class="truchicard--h4--name">Pedro Saborido</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/6U1XC09D2T5GQDTJY3V43x" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">Alejandra Lunik</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">1</span>
+                            <span itemprop="episodeNumber">2</span>
+                        </div>
                         <img class="truchicard--img" src="images/portada-podcast.jpg" alt="">
-                        <h4 class="truchicard--h4--name">Alejandra Lunik</h4>
+                        <h4 itemprop="name" class="truchicard--h4--name">Alejandra Lunik</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/0QU6wUjE60h9mxlCu6I7JB" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">Grego Rossello</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">1</span>
+                            <span itemprop="episodeNumber">3</span>
+                        </div>
                         <img class="truchicard--img" src="images/portada-podcast.jpg" alt="">
-                        <h4 class="truchicard--h4--name">Grego Rossello</h4>
+                        <h4 itemprop="name" class="truchicard--h4--name">Grego Rossello</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/6DHpCS1qN7ody3ICt47NoV" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">Malena Guinzburg</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">1</span>
+                            <span itemprop="episodeNumber">4</span>
+                        </div>
                         <img class="truchicard--img" src="images/portada-podcast.jpg" alt="">
-                        <h4 class="truchicard--h4--name">Malena Guinzburg</h4>
+                        <h4 itemprop="name" class="truchicard--h4--name">Malena Guinzburg</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/2KpN8LQzl78M9XrFXSsjZD" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">Juan Faerman</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">1</span>
+                            <span itemprop="episodeNumber">5</span>
+                        </div>
                         <img class="truchicard--img" src="images/portada-podcast.jpg" alt="">
-                        <h4 class="truchicard--h4--name">Juan Faerman</h4>
+                        <h4 itemprop="name" class="truchicard--h4--name">Juan Faerman</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/62X2wqaiPiyMxvpZK4WddR" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">Dady Brieba</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">1</span>
+                            <span itemprop="episodeNumber">6</span>
+                        </div>
                         <img class="truchicard--img" src="images/portada-podcast.jpg" alt="">
-                        <h4 class="truchicard--h4--name">Dady Brieba</h4>
+                        <h4 itemprop="name" class="truchicard--h4--name">Dady Brieba</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/4rqOjTXWse0PGLOZOYecCp" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">Alejandro Dolina</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">1</span>
+                            <span itemprop="episodeNumber">7</span>
+                        </div>
                         <img class="truchicard--img" src="images/episodios/alejandrodolina.jpg" alt="">
-                        <h4 class="truchicard--h4--name">Alejandro Dolina</h4>
+                        <h4 itemprop="name" class="truchicard--h4--name">Alejandro Dolina</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/5wU05HIXhuQexGIvdzeeCx" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">Ingrid Beck</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">1</span>
+                            <span itemprop="episodeNumber">8</span>
+                        </div>
                         <img class="truchicard--img" src="images/episodios/ingridbeck.jpg" alt="">
-                        <h4 class="truchicard--h4--name">Ingrid Beck</h4>
+                        <h4 itemprop="name" class="truchicard--h4--name">Ingrid Beck</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/36vgzA4AbCytHWwiv56Bbm" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">Migue Granados</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">1</span>
+                            <span itemprop="episodeNumber">9</span>
+                        </div>
                         <img class="truchicard--img" src="images/episodios/miguegranados.jpg" alt="">
-                        <h4 class="truchicard--h4--name">Migue Granados</h4>
+                        <h4 itemprop="name" class="truchicard--h4--name">Migue Granados</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/5866WRiBVfA8gaSYefrH6e" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">Fátima Flores</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">1</span>
+                            <span itemprop="episodeNumber">10</span>
+                        </div>
                         <img class="truchicard--img" src="images/episodios/fatimaflores.jpg" alt="">
-                        <h4 class="truchicard--h4--name">Fátima Flores</h4>
+                        <h4 itemprop="name" class="truchicard--h4--name">Fátima Flores</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/2obxjUuEKkoCkrk3DoOrZT" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">Esteban Podetti</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">1</span>
+                            <span itemprop="episodeNumber">11</span>
+                        </div>
                         <img class="truchicard--img" src="images/episodios/estebanpodetti.jpg" alt="">
-                        <h4 class="truchicard--h4--name">Esteban Podetti</h4>
+                        <h4 itemprop="name" class="truchicard--h4--name">Esteban Podetti</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/6IitIqYajYPaAYATpQ5YvD" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">Daila Gutmann</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">1</span>
+                            <span itemprop="episodeNumber">12</span>
+                        </div>
                         <img class="truchicard--img" src="images/episodios/daliagutmann.jpg" alt="">
-                        <h3 class="truchicard--h4--name">Daila Gutmann</h1>
+                        <h4 itemprop="name" class="truchicard--h4--name">Daila Gutmann</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/22gQRaZSuioxLcYib9WRUN" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">Hugo Arana</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">1</span>
+                            <span itemprop="episodeNumber">13</span>
+                        </div>
                         <img class="truchicard--img" src="images/episodios/hugoarana.jpg" alt="">
-                        <h4 class="truchicard--h4--name">Hugo Arana</h4>
+                        <h4 itemprop="name" class="truchicard--h4--name">Hugo Arana</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/7tZ19susWx6UrvAjB3suvU" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="truchicard">
+                    <div itemscope itemtype="https://schema.org/PodcastEpisode" class="truchicard">
+                        <div class="schemainfo">
+                            <span itemprop="actor">Adrián Lakerman</span>
+                            <span itemprop="actor">Maitena</span>
+                            <span itemprop="director">Adrián Lakerman</span>
+                            <span itemprop="partOfSeries">Comedia</span>
+                            <span itemprop="partOfSeason">1</span>
+                            <span itemprop="episodeNumber">14</span>
+                        </div>
                         <img class="truchicard--img" src="images/episodios/maitena.jpg" alt="">
-                        <h4 class="truchicard--h4--name">Maitena</h4>
+                        <h4 itemprop="name" class="truchicard--h4--name">Maitena</h4>
                         <iframe class="truchicard--spotify" src="https://open.spotify.com/embed-podcast/episode/4akEZ3vIhS5blv0RBiO8MX" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
                 </div>
