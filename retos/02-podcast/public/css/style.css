@@ -1,6 +1,7 @@
 
 .schemainfo {
     visibility: hidden;
+    height: 0px;
 }
 
 
@@ -204,22 +205,29 @@ section .fab {
 }
 
 
-@media (min-height: 200px) {
+@media (min-width: 200px) {
     .p--info {
         width: 300px;
     }
 }
-@media (min-height: 500px) {
+@media (min-width: 500px) {
     .p--info {
         width: 400px;
     }
 }
-@media (min-height: 600px) {
+@media (min-width: 600px) {
     .p--info {
         width: 500px;
     }
 }
-@media (min-height: 700px) {
+
+@media (min-width: 650px) {
+    .p--info {
+        width: 550px;
+    }
+}
+
+@media (min-width: 700px) {
     .p--info {
         width: 600px;
     }
@@ -277,7 +285,7 @@ section .fab {
     padding: 25px 10px;
     border: 3px solid var(--white);
     border-radius: 20px;
-    margin: 20px 20px;
+    margin: 20px;
     width: 300px;
     background: var(--pink);
 }
