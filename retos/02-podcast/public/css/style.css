@@ -199,10 +199,35 @@ section .fab {
 .p--info {
     font-size: 25px;
     font-weight: 200;
-    width: 600px;
     margin: 60px;
     text-align: justify;
 }
+
+
+@media (min-height: 200px) {
+    .p--info {
+        width: 300px;
+    }
+}
+@media (min-height: 500px) {
+    .p--info {
+        width: 400px;
+    }
+}
+@media (min-height: 600px) {
+    .p--info {
+        width: 500px;
+    }
+}
+@media (min-height: 700px) {
+    .p--info {
+        width: 600px;
+    }
+}
+
+
+
+
 
 
 
